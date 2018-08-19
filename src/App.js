@@ -1,5 +1,9 @@
 import React from 'react';
 
-const App = () => <div className="App" />;
+import './styles/global';
+
+import Main from './pages/Main';
+
+const App = () => <Main />;
 
 export default App;
